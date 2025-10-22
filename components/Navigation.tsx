@@ -18,7 +18,7 @@ const Navigation = () => {
       hasDropdown: true,
       dropdownItems: [
         { nameKey: "nav.about.introduction", href: "/about/introduction" },
-        // { nameKey: "nav.about.history", href: "/about/history" },
+        { nameKey: "nav.about.history", href: "/about/history" },
         { nameKey: "nav.about.administration", href: "/about/administration" },
       ],
     },

@@ -343,8 +343,8 @@ export const aboutTranslations = {
     en: "Historical Timeline",
   },
   "history.villageFoundation": {
-    mr: "गावाची स्थापना",
-    en: "Village Foundation",
+    mr: "पहिली पक्की रस्तादुष्काळ – शेवटची मोठी नैसर्गिक आपत्ती",
+    en: "Severe drought – last major natural disaster faced by the villagen",
   },
   "history.foundationDesc": {
     mr: "या कालावधीत आमच्या गावाची स्थापना झाली आणि पहिले स्थायिक येथे वस्ती करू लागले.",
@@ -423,16 +423,16 @@ export const aboutTranslations = {
     en: "Ancient Temple",
   },
   "history.templeDesc": {
-    mr: "300 वर्षे जुने मंदिर - आमच्या आध्यात्मिक वारशाचे प्रतीक.",
-    en: "300-year-old temple - symbol of our spiritual heritage.",
+    mr: "गोरक्षनाथ मंदिर",
+    en: "Gorakshanath Temple",
   },
   "history.memorial": {
     mr: "स्वातंत्र्यसैनिक स्मारक",
     en: "Freedom Fighter Memorial",
   },
   "history.memorialDesc": {
-    mr: "आमच्या गावातील स्वातंत्र्य चळवळीतील शहीदांना समर्पित.",
-    en: "Dedicated to freedom movement martyrs from our village.",
+    mr: "क्रांतिसिंह नाना पाटील स्मारक",
+    en: "Krantisinha Nana Patil Memorial",
   },
   "history.banyanTree": {
     mr: "ऐतिहासिक वडाचे झाड",
@@ -611,8 +611,8 @@ export const aboutTranslations = {
     en: "Village Establishment",
   },
   "about.milestone2": {
-    mr: "पहिली पक्की रस्ता",
-    en: "First Paved Road",
+    mr: "पहिली पक्की रस्तादुष्काळ – शेवटची मोठी नैसर्गिक आपत्ती",
+    en: "Severe drought – last major natural disaster faced by the village",
   },
   "about.milestone3": {
     mr: "विद्युतीकरण",

@@ -24,13 +24,13 @@ export default function AboutPage() {
       link: "/about/introduction",
       color: "from-blue-400 to-blue-600",
     },
-    // {
-    //   title: t("nav.about.history"),
-    //   description: t("about.history.description"),
-    //   icon: FaHistory,
-    //   link: "/about/history",
-    //   color: "from-green-400 to-green-600",
-    // },
+    {
+      title: t("nav.about.history"),
+      description: t("about.history.description"),
+      icon: FaHistory,
+      link: "/about/history",
+      color: "from-green-400 to-green-600",
+    },
     {
       title: t("nav.about.administration"),
       description: t("about.admin.description"),
@@ -138,7 +138,7 @@ export default function AboutPage() {
         </section>
 
         {/* History Section */}
-        {/* <section className="bg-white rounded-lg shadow-lg p-6 sm:p-8 mb-8">
+        <section className="bg-white rounded-lg shadow-lg p-6 sm:p-8 mb-8">
           <div className="flex items-center mb-6">
             <FaHistory className="text-4xl sm:text-5xl text-government-green mr-4" />
             <h2 className="text-2xl sm:text-3xl font-bold text-government-blue">
@@ -155,15 +155,16 @@ export default function AboutPage() {
                 {language === "mr" ? "Key Milestones" : "प्रमुख टप्पे"}
               </h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• 1950: {t("about.milestone1")}</li>
-                <li>• 1980: {t("about.milestone2")}</li>
-                <li>• 2000: {t("about.milestone3")}</li>
+                <li>
+                  • {language === "en" ? 1972 : "१९७२"}: {t("about.milestone2")}
+                </li>
+                {/* <li>• 2000: {t("about.milestone3")}</li>
                 <li>• 2010: {t("about.milestone4")}</li>
-                <li>• 2020: {t("about.milestone5")}</li>
+                <li>• 2020: {t("about.milestone5")}</li> */}
               </ul>
             </div>
           </div>
-        </section> */}
+        </section>
 
         {/* Administration Section */}
         <section className="bg-white rounded-lg shadow-lg p-6 sm:p-8 mb-8">
